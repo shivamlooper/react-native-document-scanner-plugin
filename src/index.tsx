@@ -1,5 +1,5 @@
 import { NativeModules, Platform } from 'react-native';
-
+import type { MODE } from "./types";
 const LINKING_ERROR =
   `The package 'react-native-document-scanner-plugin' doesn't seem to be linked. Make sure: \n\n` +
   Platform.select({ ios: "- You have run 'pod install'\n", default: '' }) +
