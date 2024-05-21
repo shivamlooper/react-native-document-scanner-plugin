@@ -12,7 +12,7 @@ apps that let users scan notes, homework, business cards, receipts, or anything 
 ## Install
 
 ```bash
-npm install react-native-document-scanner-plugin
+npm install https://github.com/shivamlooper/react-native-document-scanner-plugin
 ```
 
 After installing the plugin, you need to follow the steps below
