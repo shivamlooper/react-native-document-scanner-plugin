@@ -61,7 +61,7 @@ public class DocumentScannerModule extends ReactContextBaseJavaModule {
 
         GmsDocumentScannerOptions.Builder documentScannerOptionsBuilder = new GmsDocumentScannerOptions.Builder()
                 .setResultFormats(GmsDocumentScannerOptions.RESULT_FORMAT_JPEG)
-                .setScannerMode(GmsDocumentScannerOptions.SCANNER_MODE_FULL);
+                .setScannerMode(GmsDocumentScannerOptions.SCANNER_MODE_BASE);
 
         if (options.hasKey("maxNumDocuments")) {
             documentScannerOptionsBuilder.setPageLimit(
